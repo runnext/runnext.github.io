@@ -1,32 +1,14 @@
 [
   {
-    "Title": "5K Fun Run",
-    "StartDate": "2023-11-01",
-    "Fees": 25,
-    "Notes": "A fun run for beginners and families."
+    "Title": "JBG Endura 101 Virtual",
+    "StartDate": "2025-04-06",
+    "Fees": 499,
+    "Notes": "Virtual Run."
   },
   {
-    "Title": "10K City Challenge",
-    "StartDate": "2023-11-15",
-    "Fees": 40,
-    "Notes": "A challenging 10K run through the city."
-  },
-  {
-    "Title": "Half Marathon",
-    "StartDate": "2023-12-01",
-    "Fees": 60,
-    "Notes": "A 21.1 km race for experienced runners."
-  },
-  {
-    "Title": "Full Marathon",
-    "StartDate": "2023-12-15",
-    "Fees": 100,
-    "Notes": "A 42.2 km race for advanced runners."
-  },
-  {
-    "Title": "Trail Run",
-    "StartDate": "2023-12-20",
-    "Fees": 50,
-    "Notes": "A scenic trail run through the countryside."
+    "Title": "Runbhumi 8K",
+    "StartDate": "2025-04-13",
+    "Fees": 545,
+    "Notes": "A challenging 8K run through the city."
   }
 ]
