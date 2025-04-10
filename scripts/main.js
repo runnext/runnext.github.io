@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 filteredData.forEach(item => {
                     const row = document.createElement('tr');
                     row.innerHTML = `
-                        <td>${item.Title}</td>
+                        <td><a href="${item.Website}" target="_blank">${item.Title}</a></td>
                         <td>${item.Location}</td>
-                        <td>${item.StartDate}</td>
+                        <td>${item.Date}</td>
                         <td>${item.Fees}</td>
                         <td>${item.Notes}</td>
                     `;
@@ -22,8 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
             };
 
-            // Sort data by StartDate on initial load
-            const sortedData = data.sort((a, b) => new Date(a.StartDate) - new Date(b.StartDate));
+            // Sort data by Date on initial load
+            const sortedData = data.sort((a, b) => new Date(a.Date) - new Date(b.Date));
 
             // Initial population of the table
             populateTable(sortedData);
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const filteredData = sortedData.filter(item =>
                     item.Title.toLowerCase().includes(searchTerm) ||
                     item.Location.toLowerCase().includes(searchTerm) ||
-                    item.StartDate.toLowerCase().includes(searchTerm) ||
+                    item.Date.toLowerCase().includes(searchTerm) ||
                     item.Fees.toString().toLowerCase().includes(searchTerm) ||
                     item.Notes.toLowerCase().includes(searchTerm)
                 );
