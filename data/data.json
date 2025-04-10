@@ -13,7 +13,7 @@
     "Website": "https://athlenic.com/runbhumi25",
     "Date": "2025-04-13",
     "Fees": 545,
-    "Notes": "A challenging 8K run through the city."
+    "Notes": "8K Timed Run in Decathlon Newtown"
   },
   {
     "Title": "Ranchi Half Marathon 2025",
@@ -21,7 +21,7 @@
     "Website": "https://sportifi.in/event/ranchi-half-marathon",
     "Date": "2025-04-27",
     "Fees": "399+",
-    "Notes": "https://sportifi.in/event/ranchi-half-marathon"
+    "Notes": "Use Code 'APYK50 for 50% discount (Valid till 30th March 2025)."
   },
   {
     "Title": "Kalimpong Hill Run 2025",
@@ -29,6 +29,22 @@
     "Website": "https://athlenic.com/affdr25",
     "Date": "2025-05-18",
     "Fees": "125+",
-    "Notes": "https://athlenic.com/affdr25"
+    "Notes": "Armed Forces Flag Day"
+  },
+  {
+    "Title": "Goechala Trail Run 2025",
+    "Location": "Yoksum, Sikkim",
+    "Website": "https://www.dquests.com/events/goechala-trail-run/",
+    "Date": "2025-05-03",
+    "Fees": "2000+",
+    "Notes": "Trail in the heart of Kanchenjungha National Park"
+  },
+  {
+    "Title": "Aizawl International Half Marathon 2025",
+    "Location": "Mizoram",
+    "Website": "https://aihm2025.com/",
+    "Date": "2025-04-26",
+    "Fees": "799",
+    "Notes": ""
   }
 ]
