@@ -2,28 +2,32 @@
   {
     "Title": "JBG Endura 101 Virtual",
     "Location": "Virtual",
-    "StartDate": "2025-04-06",
+    "Website": "https://jbgendura101.com/",
+    "Date": "2025-07-15",
     "Fees": 499,
-    "Notes": "Virtual Run."
+    "Notes": "Virtual Run challenge starts on April 6th, 2025, and concludes on July 15th, 2025."
   },
   {
     "Title": "Runbhumi 8K",
     "Location": "Kolkata",
-    "StartDate": "2025-04-13",
+    "Website": "https://athlenic.com/runbhumi25",
+    "Date": "2025-04-13",
     "Fees": 545,
     "Notes": "A challenging 8K run through the city."
   },
   {
     "Title": "Ranchi Half Marathon 2025",
     "Location": "Ranchi",
-    "StartDate": "2025-04-27",
+    "Website": "https://sportifi.in/event/ranchi-half-marathon",
+    "Date": "2025-04-27",
     "Fees": "399+",
     "Notes": "https://sportifi.in/event/ranchi-half-marathon"
   },
   {
     "Title": "Kalimpong Hill Run 2025",
     "Location": "Kalimpong",
-    "StartDate": "2025-05-18",
+    "Website": "https://athlenic.com/affdr25",
+    "Date": "2025-05-18",
     "Fees": "125+",
     "Notes": "https://athlenic.com/affdr25"
   }
