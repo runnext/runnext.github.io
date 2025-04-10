@@ -4,17 +4,44 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(data => {
             const tableBody = document.getElementById('table-body');
-            data.forEach(item => {
-                const row = document.createElement('tr');
-                row.innerHTML = `
-                    <td>${item.Title}</td>
-                    <td>${item.StartDate}</td>
-                    <td>${item.Fees}</td>
-                    <td>${item.Notes}</td>
-                `;
-                tableBody.appendChild(row);
+            const searchBox = document.getElementById('search-box');
+
+            // Populate the table
+            const populateTable = (filteredData) => {
+                tableBody.innerHTML = ''; // Clear existing rows
+                filteredData.forEach(item => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${item.Title}</td>
+                        <td>${item.Location}</td>
+                        <td>${item.StartDate}</td>
+                        <td>${item.Fees}</td>
+                        <td>${item.Notes}</td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            };
+
+            // Sort data by StartDate on initial load
+            const sortedData = data.sort((a, b) => new Date(a.StartDate) - new Date(b.StartDate));
+
+            // Initial population of the table
+            populateTable(sortedData);
+
+            // Add search functionality
+            searchBox.addEventListener('input', (event) => {
+                const searchTerm = event.target.value.toLowerCase();
+                const filteredData = sortedData.filter(item =>
+                    item.Title.toLowerCase().includes(searchTerm) ||
+                    item.Location.toLowerCase().includes(searchTerm) ||
+                    item.StartDate.toLowerCase().includes(searchTerm) ||
+                    item.Fees.toString().toLowerCase().includes(searchTerm) ||
+                    item.Notes.toLowerCase().includes(searchTerm)
+                );
+                populateTable(filteredData);
             });
-        });
+        })
+        .catch(error => console.error('Error fetching data:', error));
 
     // Sorting functionality
     const table = document.getElementById('sortable-table');
