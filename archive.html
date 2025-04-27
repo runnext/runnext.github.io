@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archive - Past Events</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>Past Events</h1>
+    <input type="text" id="archive-search-box" placeholder="Search past events..." />
+    <a href="index.html" id="home-link">Home</a> <!-- Link to Home Page -->
+    <table id="archive-table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Location</th>
+                <th>Date</th>
+                <th>Fees(₹)</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody id="archive-body">
+            <!-- Rows will be dynamically populated by JavaScript -->
+        </tbody>
+    </table>
+    <script src="scripts/archive.js"></script>
+</body>
+</html>

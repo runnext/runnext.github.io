@@ -22,8 +22,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
             };
 
-            // Sort data by Date on initial load
-            const sortedData = data.sort((a, b) => new Date(a.Date) - new Date(b.Date));
+            // Get the current date
+            const currentDate = new Date();
+
+            // Filter data to include only events after the current date
+            const filteredData = data.filter(item => new Date(item.Date) > currentDate);
+
+            // Sort data by Date
+            const sortedData = filteredData.sort((a, b) => new Date(a.Date) - new Date(b.Date));
 
             // Initial population of the table
             populateTable(sortedData);
@@ -31,14 +37,14 @@ document.addEventListener('DOMContentLoaded', () => {
             // Add search functionality
             searchBox.addEventListener('input', (event) => {
                 const searchTerm = event.target.value.toLowerCase();
-                const filteredData = sortedData.filter(item =>
+                const searchFilteredData = sortedData.filter(item =>
                     item.Title.toLowerCase().includes(searchTerm) ||
                     item.Location.toLowerCase().includes(searchTerm) ||
                     item.Date.toLowerCase().includes(searchTerm) ||
                     item.Fees.toString().toLowerCase().includes(searchTerm) ||
                     item.Notes.toLowerCase().includes(searchTerm)
                 );
-                populateTable(filteredData);
+                populateTable(searchFilteredData);
             });
         })
         .catch(error => console.error('Error fetching data:', error));
