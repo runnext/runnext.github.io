@@ -1,19 +1,19 @@
 [
   {
-    "Title": "JBG Endura 101 Virtual",
-    "Location": "Virtual",
-    "Website": "https://jbgendura101.com/",
-    "Date": "2025-07-15",
-    "Fees": 499,
-    "Notes": "Virtual Run challenge starts on April 6th, 2025, and concludes on July 15th, 2025."
-  },
-  {
     "Title": "Runbhumi 8K",
     "Location": "Kolkata",
     "Website": "https://athlenic.com/runbhumi25",
     "Date": "2025-04-13",
     "Fees": 545,
     "Notes": "8K Timed Run in Decathlon Newtown. <a href='https://www.facebook.com/media/set/?vanity=airansports&set=a.698238286061448'>Event Photos</a>"
+  },
+  {
+    "Title": "Aizawl International Half Marathon 2025",
+    "Location": "Mizoram",
+    "Website": "https://aihm2025.com/",
+    "Date": "2025-04-26",
+    "Fees": "799",
+    "Notes": ""
   },
   {
     "Title": "Ranchi Half Marathon 2025",
@@ -24,12 +24,12 @@
     "Notes": "Use Code 'APYK50 for 50% discount (Valid till 30th March 2025)."
   },
   {
-    "Title": "Kalimpong Hill Run 2025",
-    "Location": "Kalimpong",
-    "Website": "https://athlenic.com/affdr25",
-    "Date": "2025-05-18",
-    "Fees": "125+",
-    "Notes": "Armed Forces Flag Day"
+    "Title": "TCS World 10K Bengaluru 2025",
+    "Location": "Bengaluru",
+    "Website": "https://tcsworld10k.procam.in/",
+    "Date": "2025-04-27",
+    "Fees": "900+",
+    "Notes": ""
   },
   {
     "Title": "Goechala Trail Run 2025",
@@ -40,11 +40,59 @@
     "Notes": "Trail in the heart of Kanchenjungha National Park"
   },
   {
-    "Title": "Aizawl International Half Marathon 2025",
-    "Location": "Mizoram",
-    "Website": "https://aihm2025.com/",
-    "Date": "2025-04-26",
-    "Fees": "799",
+    "Title": "Kalimpong Hill Run 2025",
+    "Location": "Kalimpong",
+    "Website": "https://athlenic.com/affdr25",
+    "Date": "2025-05-18",
+    "Fees": "125+",
+    "Notes": "Armed Forces Flag Day"
+  },
+  {
+    "Title": "NEB - Bengaluru 10K Challenge 2025",
+    "Location": "Bengaluru",
+    "Website": "https://bengaluru10k.com/",
+    "Date": "2025-07-06",
+    "Fees": "750+",
+    "Notes": ""
+  },
+  {
+    "Title": "JBG Endura 101 Virtual",
+    "Location": "Virtual",
+    "Website": "https://jbgendura101.com/",
+    "Date": "2025-07-15",
+    "Fees": 499,
+    "Notes": "Virtual Run challenge starts on April 6th, 2025, and concludes on July 15th, 2025."
+  },
+  {
+    "Title": "Pune Full Marathon 2025",
+    "Location": "Bengaluru",
+    "Website": "https://punefullmarathon.com/",
+    "Date": "2025-08-03",
+    "Fees": "413+",
+    "Notes": ""
+  },
+  {
+    "Title": "Mumbai Half Marathon 2025",
+    "Location": "Bengaluru",
+    "Website": "https://mumbaihalfmarathon.com/",
+    "Date": "2025-08-17",
+    "Fees": "413+",
+    "Notes": ""
+  },
+  {
+    "Title": "Kodagu Monsoon Half Marathon",
+    "Location": "Coorg",
+    "Website": "https://www.mysamay.in/public/event/info/2c065271-b14c-46de-b94f-28ea7fddd01a",
+    "Date": "2025-09-07",
+    "Fees": "413+",
+    "Notes": ""
+  },
+  {
+    "Title": "Wipro Bengaluru Marathon 2025",
+    "Location": "Bengaluru",
+    "Website": "https://bengalurumarathon.in/",
+    "Date": "2025-09-21",
+    "Fees": "600+",
     "Notes": ""
   }
 ]
